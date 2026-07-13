@@ -1,0 +1,12 @@
+# Secrets
+.env
+*.env.local
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Grafana/Prometheus local data if run outside Docker
+grafana-data/
+prometheus-data/
